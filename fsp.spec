@@ -2,7 +2,7 @@
 # - subpackages (?)
 # - config for rc-inetd
 Summary:	File Service Protocol programs
-Summary(pl):	Programy obs³ugi protoko³u FSP
+Summary(pl):	Programy do obs³ugi protoko³u FSP
 Name:		fsp
 Version:	2.8.1b24
 Release:	0.1
@@ -37,7 +37,6 @@ klientów i bardziej akceptowalny dla providerów.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 %{__make} install \
@@ -52,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc BETA.README ChangeLog INFO INSTALL TODO doc/{faq.html,PROTOCOL}
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
 %attr(755,root,root) %{_bindir}/*
-%{_mandir}/*
+%{_mandir}/man?/*
