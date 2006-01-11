@@ -5,7 +5,7 @@ Summary:	File Service Protocol programs
 Summary(pl):	Programy do obs³ugi protoko³u FSP
 Name:		fsp
 Version:	2.8.1b24
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/fsp/%{name}-%{version}.tar.bz2
