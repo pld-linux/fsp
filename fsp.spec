@@ -2,7 +2,7 @@
 # - subpackages (?)
 # - config for rc-inetd
 Summary:	File Service Protocol programs
-Summary(pl):	Programy do obs硊gi protoko硊 FSP
+Summary(pl.UTF-8):   Programy do obs艂ugi protoko艂u FSP
 Name:		fsp
 Version:	2.8.1b24
 Release:	1
@@ -21,12 +21,12 @@ replacement for FTP; it is only meant to do what anonymous-FTP does,
 but in a manner more acceptable to the provider of the service and
 more friendly to the clients.
 
-%description -l pl
-FSP jest zestawem program體, kt髍y implementuje protok蟪 dost阷u do
-publicznych archiw體 podobny do anonimowego FTP, ale z u縴ciem
-protoko硊 UDP. Jego zamierzeniem nie jest zast阷owanie FTP, ale
-robienie tego samego co anonimowe FTP w spos骲 bardziej przyjazny dla
-klient體 i bardziej akceptowalny dla provider體.
+%description -l pl.UTF-8
+FSP jest zestawem program贸w, kt贸ry implementuje protok贸艂 dost臋pu do
+publicznych archiw贸w podobny do anonimowego FTP, ale z u偶yciem
+protoko艂u UDP. Jego zamierzeniem nie jest zast臋powanie FTP, ale
+robienie tego samego co anonimowe FTP w spos贸b bardziej przyjazny dla
+klient贸w i bardziej akceptowalny dla provider贸w.
 
 %prep
 %setup -q
