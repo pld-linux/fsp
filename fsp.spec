@@ -2,7 +2,7 @@
 # - subpackages (?)
 # - config for rc-inetd
 Summary:	File Service Protocol programs
-Summary(pl.UTF-8):   Programy do obsługi protokołu FSP
+Summary(pl.UTF-8):	Programy do obsługi protokołu FSP
 Name:		fsp
 Version:	2.8.1b24
 Release:	1
